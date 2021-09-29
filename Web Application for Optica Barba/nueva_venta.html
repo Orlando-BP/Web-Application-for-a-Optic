@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<HTML LANG="sp">
+<html>
+<head> 
+
+           <title> Optica Barba </title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="estilo_mensaje.css">
+     <style>
+body {margin:0;}
+body { background-image: url("imagenes/fondoazul1.png");}
+</style>
+
+</head>
+
+<body text="black">
+
+<div class="topnav">
+<center><img src="imagenes/ija.png"></center>
+  <a href="index.html">Inicio</a>
+  <a href="clientes.php">Clientes</a>
+  <a href="Productos.php">Productos</a>
+  <a href="buscarCliente.html">Buscar Cliente</a>
+  <a href="registroClientes.html">Registro de clientes</a>
+  <a class="active" href="nueva_venta.html">Nueva Venta</a>
+</div>
+<div class="imagenmove">
+<h1><marquee><img src="imagenes/barba1.png"></marquee></h1>
+</div>
+
+<div>
+        <form method="POST" action="nueva_venta.php" class="buscar">
+            <center><h2><em>Busca al cliente al que se le realizara la venta</em></h2></center>
+			<center><table class="reg">
+			<tr>
+			<th>
+            <label for="nombre">Nombre el nombre y/o apellido del cliente <span><em>(requerido)</em></span></label>
+			<input type="text" name="nombre" class="form-input" required />
+			</th>
+			</tr></table></center>
+            <center> <input class="form-btn" name="submit" type="submit" value="Buscar" /></center>
+			
+        </form>
+    </div>
+
+</body>
+<footer>
+</footer>
+</html>

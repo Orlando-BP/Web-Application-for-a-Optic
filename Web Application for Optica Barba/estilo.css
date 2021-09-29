@@ -1,0 +1,58 @@
+/* ...............menu...................... */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {   
+  float: left;
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {    
+  background-color: #0CF9F9;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #0899E2;
+    color: white;
+}
+
+
+
+/* ...............Pie de pagina...................... */
+
+
+
+/* ...............  H3   ...................... */
+
+h3{
+color: #000;
+}
+
+
+/* ...............  imagenmove   ...................... */
+
+.imagenmove {
+  overflow: hidden;
+  background-color: #5a5a59;
+}
+
+/* ...............  tablas   ...................... */
+
+table{
+float: center;
+background: #9fa0a0;
+
+}
+
+a{   
+  font-size: 37px;
+}

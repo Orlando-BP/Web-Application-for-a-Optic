@@ -1,0 +1,140 @@
+form{
+	position:relative;
+	width:1500px;
+	height:850px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#B8C0C5;
+	border-radius: 20px;
+	margin:auto;
+	font: 24px normal normal uppercase helvetica, arial, serif;
+}
+form.buscar{
+	position:relative;
+	width:1500px;
+	height:250px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#B8C0C5;
+	border-radius: 20px;
+	margin:auto;
+	font: 24px normal normal uppercase helvetica, arial, serif;
+	
+}
+input[type=text],[type=email]{
+	width:470px;
+	height:35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;  
+}
+th{
+  padding: 15px;
+  border: 1px solid black;
+}
+td{
+  padding: 15px;
+  border: 1px solid black;
+}
+table.reg{
+float: center;
+background: #CDD3D6;
+
+}
+table.view{
+float: center;
+width:500px;
+background-color:#CDD3D6;
+}
+
+div.group{
+	position:relative;
+	width:80%;
+	height:100%;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#B8C0C5;
+	border-radius: 20px;
+	margin:auto;
+}
+div.group2{
+	position:relative;
+	width:80%;
+	height:auto;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#B8C0C5;
+	border-radius: 20px;
+	margin:auto;
+}
+div.individual{
+	position:relative;
+	width:900px;
+	height:350px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#A9AFB2;
+	border-radius: 20px;
+	margin:auto;
+}
+div.individual2{
+	position:relative;
+	width:900px;
+	height:650px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#A9AFB2;
+	border-radius: 20px;
+	margin:auto;
+}
+div.individual3{
+	position:relative;
+	width:900px;
+	height:230px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#A9AFB2;
+	border-radius: 20px;
+	margin:auto;
+}
+input.peque-input{
+	width:70px;
+	height:35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+textarea{
+	width: 470px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+input[type=submit]{
+	position:relative;
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	border:3px solid black;
+	background-color:#D3F0FF;
+	font: 24px normal normal uppercase helvetica, arial, serif;
+}
+input[type=submit]:hover{
+	position:relative;
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	border:3px solid black;
+	text-decoration: underline;
+	background-color:#7CCDF6;
+	font: 24px normal normal uppercase helvetica, arial, serif;
+}
+
+p{
+	text-shadow:0 1px 0 #fff;
+	font-size:24px;
+}
+
+label{
+	margin:11px 20px 0 0;
+	font-size:16 px;
+	color:#000;
+	text-transform: uppercase;
+	text-shadow:0px 1px 0px #000;
+}
